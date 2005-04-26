@@ -1,0 +1,12 @@
+diff -urN ssidsniff-0.41.orig/cursesui.c ssidsniff-0.41/cursesui.c
+--- ssidsniff-0.41.orig/cursesui.c	2005-04-09 07:45:03.000000000 +0200
++++ ssidsniff-0.41/cursesui.c	2005-04-25 11:46:33.000000000 +0200
+@@ -8,7 +8,7 @@
+ #endif
+ 
+ #include <sys/param.h>
+-#include <curses.h>
++#include <ncurses/curses.h>
+ #include <stdlib.h>
+ #include <string.h>
+ #include <stdarg.h>

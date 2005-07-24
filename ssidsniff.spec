@@ -1,13 +1,13 @@
 Summary:	Wireless network audit tools
 Summary(pl):	Narzêdzia do audytu sieci bezprzewodowych
 Name:		ssidsniff
-Version:	0.41
-Release:	0.1
+Version:	0.42
+Release:	1
 Epoch:		0
 License:	GPL v2
 Group:		Networking/Utilities
 Source0:	http://www.bastard.net/~kos/wifi/%{name}-%{version}.tar.gz
-# Source0-md5:	dec36c915e7dc544cd275594e3da7e44
+# Source0-md5:	a38ddcb3c23af30f00d8ad04f781a700
 Patch0:		%{name}-ncurses.patch
 URL:		http://www.bastard.net/~kos/wifi/
 BuildRequires:	autoconf

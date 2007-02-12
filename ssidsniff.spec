@@ -1,5 +1,5 @@
 Summary:	Wireless network audit tools
-Summary(pl.UTF-8):   Narzędzia do audytu sieci bezprzewodowych
+Summary(pl.UTF-8):	Narzędzia do audytu sieci bezprzewodowych
 Name:		ssidsniff
 Version:	0.42
 Release:	1

@@ -1,5 +1,5 @@
 Summary:	Wireless network audit tools
-Summary(pl):	Narzêdzia do audytu sieci bezprzewodowych
+Summary(pl.UTF-8):   NarzÄ™dzia do audytu sieci bezprzewodowych
 Name:		ssidsniff
 Version:	0.42
 Release:	1
@@ -21,10 +21,10 @@ A curses based tool that allows identification, classification and
 data capturing of wireless networks. The interface is inspired from
 the unix top(1) utility.
 
-%description -l pl
-Oparte na curses narzêdzie pozwalaj±ce na identyfikacjê, klasyfikacjê
+%description -l pl.UTF-8
+Oparte na curses narzÄ™dzie pozwalajÄ…ce na identyfikacjÄ™, klasyfikacjÄ™
 i wychwytywanie danych z sieci bezprzewodowych. Interfejs jest
-zainspirowany uniksowym narzêdziem top(1).
+zainspirowany uniksowym narzÄ™dziem top(1).
 
 %prep
 %setup -q

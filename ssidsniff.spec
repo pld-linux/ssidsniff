@@ -2,7 +2,7 @@ Summary:	Wireless network audit tools
 Summary(pl.UTF-8):	Narzędzia do audytu sieci bezprzewodowych
 Name:		ssidsniff
 Version:	0.53
-Release:	1
+Release:	2
 Epoch:		0
 License:	GPL v2
 Group:		Networking/Utilities

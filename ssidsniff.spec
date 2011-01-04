@@ -3,7 +3,6 @@ Summary(pl.UTF-8):	Narzędzia do audytu sieci bezprzewodowych
 Name:		ssidsniff
 Version:	0.53
 Release:	3
-Epoch:		0
 License:	GPL v2
 Group:		Networking/Utilities
 Source0:	http://www.bastard.net/~kos/wifi/%{name}-%{version}.tar.gz
@@ -12,7 +11,7 @@ Patch0:		%{name}-ncurses.patch
 URL:		http://www.bastard.net/~kos/wifi/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	libpcap-devel
+BuildRequires:	libpcap-devel >= 2:0.7.1
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -36,7 +35,7 @@ zainspirowany uniksowym narzędziem top(1).
 %{__autoheader}
 %{__automake}
 %configure \
-	--with-libcurses=%{_includedir}/ncurses
+	--with-libcurses=/usr/include/ncurses
 %{__make}
 
 %install
